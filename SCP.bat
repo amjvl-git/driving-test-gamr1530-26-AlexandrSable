@@ -1,5 +1,5 @@
 @echo off
-	set /p msg="Enter commit message: "
+	set /p msg="Your fabulous and useful commit message: "
 
 	git add -A
 	git commit -m"%msg%"
